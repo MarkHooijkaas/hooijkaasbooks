@@ -1,4 +1,8 @@
+<p>
 Chris Hooijkaas heeft via Hooijkaasbooks twee boeken uitgegeven.
-Het eerste eind 2016 getiteld 'Speciale Comtoises en lantaarnklokken'
-en het tweede begin 2019 getiteld 'Denk na – over de wereldbevolking en klimaatverandering'.
+<ul>
+  <li>het eerste eind 2016 getiteld 'Speciale Comtoises en lantaarnklokken'</li>
+  <li>het tweede begin 2019 getiteld 'Denk na – over de wereldbevolking en klimaatverandering'.</li>
+</ul
 Zie hieronder voor meer details.
+</p>
