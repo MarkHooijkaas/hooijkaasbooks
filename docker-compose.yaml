@@ -1,0 +1,21 @@
+version: '3.2'
+
+# books
+services:
+
+  web:
+    restart: unless-stopped
+    image: nginx:latest
+    labels:
+      - "traefik.enable=true"
+      - "traefik.port=80"
+      - "traefik.frontend.rule=Host:hooijkaasbooks.nl,www.hooijkaasbooks.nl"
+      - "traefik.domain=hooijkaasbooks.nl"
+    volumes:
+      - ${pwd}/html:/usr/share/nginx/html:ro
+      - ${pwd}/default.conf:/etc/nginx/conf.d/default.conf:ro
+
+networks:
+  default:
+    external:
+      name: proxy-mesh
